@@ -15,7 +15,7 @@ app.disable('x-powered-by')
 app.get('/', (req, res) => {
   res.status(200).json({
     email: 'okere_chidera@yahoo.com',
-    current_time: new Date().toISOString(),
+    current_datetime: new Date().toISOString(),
     github_url: 'https://github.com/oderahub/quickInfoAPI'
   })
 })
