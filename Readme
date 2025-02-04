@@ -1,0 +1,57 @@
+# Public API to Retrieve Basic Information
+
+This project implements a simple public API that returns basic information, including the registered email address, the current date and time in ISO 8601 format, and the GitHub URL of the project's codebase.
+
+## Project Description
+
+The purpose of this API is to provide a simple way to retrieve essential information about the developer (you). It is built using **Node.js** and **Express**, with CORS enabled for accessibility from different origins.
+
+The API is publicly accessible and deployed on a platform of your choice. It responds in a JSON format and provides the necessary information, including the current date and time in UTC, which is dynamically generated.
+
+## Setup Instructions
+
+Follow these steps to set up and run the project locally:
+
+### Prerequisites
+
+- Node.js (v14 or higher)
+
+### Steps to Run the Project Locally
+
+1. **Clone the Repository**
+
+   ```bash
+    https://github.com/oderahub/quickInfoAPI
+   cd  QuickinfoAPI
+
+   npm install
+
+   npm start
+
+   ```
+
+API Documentation
+Endpoint
+URL: GET
+Response Format: JSON
+Request
+Method: GET
+URL: /
+Response
+Status: 200 OK (success)
+Content-Type: application/json
+Response Body Example:
+
+json
+Copy
+Edit
+{
+"email": "your-email@example.com",
+"current_datetime": "2025-01-30T09:30:00Z",
+"github_url": "https://github.com/yourusername/your-repo"
+}
+
+Backlink for Node.js Developers
+If you're a developer and interested in working with Node.js, check out this link for more details on hiring opportunities:
+
+[text](https://hng.tech/hire/nodejs-developers)
